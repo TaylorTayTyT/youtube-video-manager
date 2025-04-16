@@ -1,0 +1,1 @@
+small chrome extension that lets you play youtube on your tabs. Based on if you want to quickly switch music while playing a ttrpg. 

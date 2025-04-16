@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube music manager",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://www.youtube.com/watch?*"
+    ],
+    "permissions": [
+        "tabGroups",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage"
+    ]
+}
