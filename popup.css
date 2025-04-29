@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Special+Gothic+Expanded+One&display=swap');
+
 body {
   width: 20rem;
 }
@@ -23,6 +25,12 @@ p {
   margin: 0;
 }
 
+h1{
+  font-family: "Inknut Antiqua", serif;
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
 img[tabId] {
   width: 1.5rem;
   cursor: pointer;
@@ -30,4 +38,14 @@ img[tabId] {
 
 img[tabId]:hover{
   border-bottom: solid 1px black;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selected{
+  background-color: rgba(255, 0, 0, 0.1);
 }
